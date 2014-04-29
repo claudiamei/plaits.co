@@ -1,0 +1,194 @@
+* {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+body {
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-color: #B6B8BA;
+  font-family: 'Libre Baskervile', 'Times New Roman', 'sans-serif';
+  font-size: 17px; 
+}
+
+input[type="text"],
+input[type="email"] {
+  color: white;
+  font-family: 'Lato', 'serif';
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 1px #B2B3B3;
+  box-shadow: none;
+  outline: none;
+  background-color: #B2B3B3;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Lato', 'serif';
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+:-moz-placeholder {
+  font-family: 'Lato', 'serif';
+  text-align: center;
+  text-transform: uppercase;
+  color: white;  
+}
+
+::-moz-placeholder {
+  font-family: 'Lato', 'serif';
+  text-align: center;
+  text-transform: uppercase;
+  color: white;  
+}
+
+:-ms-input-placeholder {  
+  font-family: 'Lato', 'serif';
+  text-align: center;
+  text-transform: uppercase;
+  color: white;  
+}
+
+button {
+  background-color: black;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#pl-container {
+  width: 100%;
+}
+
+.jumbotron-logo {
+  margin-top: 93px;
+  margin-bottom: 5px:
+}
+
+.jumbotron-logo img {
+  width: 100%;
+}
+
+.jumbotron-slogan {
+  margin-top: 5px;
+  margin-bottom: 11px;
+}
+
+.jumbotron-slogan p {
+  font-family: 'Libre Baskervile', 'Times New Roman', 'sans-serif';
+  font-size: 2.10em; 
+  color: white;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.jumbotron-mission {
+  margin-top: 9px;
+  margin-bottom: 30px;
+}
+
+/* Landing Page specifics */
+
+.jumbotron-mission p, 
+.jumbotron-thankyou p,
+.jumbotron-share p {
+  font-family: 'Libre Baskervile', 'Times New Roman', 'sans-serif';
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 1.0em; 
+  color: white;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.jumbotron-input {
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.jumbotron-input input {
+  width: 100%;
+  height: 44px;
+}
+
+.jumbotron-submit {
+  margin-top: 58px;
+  margin-bottom: 20px;
+}
+
+.jumbotron-submit button {
+  font-family: 'Lato', 'serif';
+  font-size: 1.76em;
+  font-weight: 100;
+  height: 58px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/* Thank you page specifics */
+
+.jumbotron-thankyou {
+  margin-top: 62px;
+  margin-bottom: 38px;
+}
+
+.jumbotron-thankyou p {
+  font-size: 2.12em;
+  font-style: italic;
+  font-weight: 600;
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.jumbotron-sub-thankyou {
+  margin-top: 39px;
+  margin-bottom: 44px;
+}
+
+.jumbotron-sub-thankyou {
+  font-size: 1.31em;
+  font-style: italic;
+  color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  line-height: 0.6em;
+}
+
+.jumbotron-social {
+  margin-top: 88px;
+  margin-bottom: 10px;
+}
+
+.jumbotron-social .share {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.jumbotron-share {
+  margin-top: 11px;
+  margin-bottom: 20px;
+}
+
+.jumbotron-share p {
+  font-size: 1.31em;
+  font-style: italic;
+  color: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
