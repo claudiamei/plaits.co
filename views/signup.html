@@ -9,17 +9,20 @@
 <form name="submitForm">
   <div class="row jumbotron-input">
     <div class="col-md-offset-4 col-md-4">
-      <input name="first" type="text" placeholder="First Name" ng-model="firstName" required>
+      <input name="first" type="text" placeholder="First Name" 
+        ng-model="firstName" required ng-minlength="1">
     </div>
   </div>
   <div class="row jumbotron-input">
     <div class="col-md-offset-4 col-md-4">
-      <input name="last" type="text" placeholder="Last Name" ng-model="lastName" required>
+      <input name="last" type="text" placeholder="Last Name" 
+        ng-model="lastName" required ng-minlength="1">
     </div>
   </div>
   <div class="row jumbotron-input">
     <div class="col-md-offset-4 col-md-4">
-      <input name="email" type="email" placeholder="Email" ng-model="email" required>
+      <input name="email" type="email" placeholder="Email"
+        ng-model="email" required ng-minlength="1">
     </div>
   </div>
   <div class="row jumbotron-submit">
